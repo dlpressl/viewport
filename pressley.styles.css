@@ -1,10 +1,10 @@
-/* YOUR NAME GOES HERE */
+/* Damien Pressley*/
 
 /* --------------- ADD CSS RESET TO THE FILE HERE --------------- */
 
+/* --------------- pressley.normalize.css ADDed--------------- */
 
-
-/* ----- AUTOPREFIXER FOR VS CODE WAS USED FOR VENDOR PREFIXES ----- */
+/* ----- AUTO PREFIXER FOR VS CODE WAS USED FOR VENDOR PREFIXES ----- */
 /* ---------- VARIABLES ---------- */
 :root{
     --red: #760029;
@@ -33,6 +33,12 @@
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--dark-gray);
+        color: var(--white);
+    }
+}
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
